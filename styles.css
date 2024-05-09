@@ -1,0 +1,69 @@
+body {
+    background: url(images/Agony.png);
+}
+
+
+.headdr {
+    background-color:rgb(255, 125, 188);
+    display:flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+    justify-self: center;
+    font-family: "Honk", system-ui;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 25em;
+    margin-right: 25em;
+    padding: 1em;
+}
+
+.summary {
+    font-family: "Rancho", cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 125, 188);
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color:rgb(255, 125, 188);
+    margin-left: 25em;
+    margin-right: 25em;
+    padding: 1em;
+}
+
+.cont-ovrview{
+    font-family: "Rancho", cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 125, 188);
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    margin-left: 25em;
+    margin-right: 25em;
+    padding: 1em;
+    background-color:rgb(255, 125, 188);
+}
+
+button {
+    display: block;
+    max-width: 300px;
+    margin:auto;
+    border:3px solid rgb(255, 231, 74);
+    background-color: rgb(255, 125, 188);
+    font-size: 14px 40px;
+    align-self: center;
+    
+}
+
+.buttons {
+    background-color: rgb(255, 125, 188);
+    margin-left: 50em;
+    margin-right: 50em;
+    padding:1em;
+}
