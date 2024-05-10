@@ -4,8 +4,8 @@ body {
 
 
 .headdr {
-    background-color:rgb(255, 125, 188);
-    display:flex;
+    background-color: rgb(47, 77, 231);
+    display: flex;
     flex-wrap: wrap;
     flex-flow: row;
     justify-content: center;
@@ -15,7 +15,10 @@ body {
     text-align: center;
     margin-left: 25em;
     margin-right: 25em;
+    margin-top: 5em;
     padding: 1em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .summary {
@@ -23,47 +26,324 @@ body {
     font-size: xx-large;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     text-decoration: underline;
     text-decoration-color: rgb(255, 125, 188);
     font-style: oblique;
     color: rgb(255, 231, 74);
-    background-color:rgb(255, 125, 188);
+    background-color: rgb(47, 77, 231);
     margin-left: 25em;
     margin-right: 25em;
     padding: 1em;
 }
 
-.cont-ovrview{
+.cont-ovrview {
     font-family: "Rancho", cursive;
     font-size: xx-large;
     display: flex;
     flex-direction: row;
-    justify-content:center;
+    justify-content: center;
     text-decoration: underline;
-    text-decoration-color: rgb(255, 125, 188);
+    text-decoration-color: rgb(47, 77, 231);
     font-style: oblique;
-    color: rgb(255, 231, 74);
+    color: rgb(255, 221, 0);
     margin-left: 25em;
     margin-right: 25em;
     padding: 1em;
-    background-color:rgb(255, 125, 188);
+    background-color: rgb(47, 77, 231);
+
 }
 
 button {
     display: block;
     max-width: 300px;
-    margin:auto;
-    border:3px solid rgb(255, 231, 74);
+    margin: auto;
+    border: 3px solid rgb(47, 77, 231);
     background-color: rgb(255, 125, 188);
     font-size: 14px 40px;
     align-self: center;
-    
+
 }
 
 .buttons {
-    background-color: rgb(255, 125, 188);
+    background-color: rgb(47, 77, 231);
     margin-left: 50em;
     margin-right: 50em;
-    padding:1em;
+    padding: 1em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.unhappy {
+    background-color: rgb(47, 77, 231);
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+    justify-self: center;
+    font-family: "Honk", system-ui;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 25em;
+    margin-right: 25em;
+    margin-top: 5em;
+    padding: 1em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.over-it {
+    font-family: "Rancho", cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 125, 188);
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 25em;
+    margin-right: 25em;
+    padding: 1em;
+}
+
+.butt-on-z {
+    background-color: rgb(47, 77, 231);
+    margin-left: 50em;
+    margin-right: 50em;
+    padding: 1em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.headre {
+    background-color: rgb(47, 77, 231);
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    justify-content: center;
+    justify-self: center;
+    font-family: "Honk", system-ui;
+    font-size: xx-large;
+    text-align: center;
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-top: 5em;
+    padding: 1em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.ex-pee {
+    font-family: "Honk", system-ui;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.ex-pee-ex {
+    font-family: "Rancho", cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 125, 188);
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.about-you {
+    font-family: "Honk", system-ui;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+    padding: 1em;
+}
+
+.L-Skills {
+    font-family: "Honk", system-ui;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+    padding: 1em;
+}
+
+.no-class {
+    font-family: "Honk", system-ui;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+    padding: 1em;
+}
+
+.dont {
+    font-family: "Rancho", cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 125, 188);
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+    padding: 1em;
+}
+
+.b-u-t-t-o-n-z {
+    background-color: rgb(47, 77, 231);
+    margin-left: 30em;
+    margin-right: 30em;
+    margin-bottom: 10em;
+    padding: 1em;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.loser {
+    font-family: "Rancho", cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 125, 188);
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+.e-ex-pee {
+    font-family: "Rancho", cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 125, 188);
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.pee-ex {
+    font-family: "Rancho", cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 125, 188);
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.pee-e-ex-pee {
+    font-family: "Rancho", cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 125, 188);
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+    padding: 1em;
+}
+
+.you-about {
+    font-family: "Rancho", cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 125, 188);
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+    padding: 1em;
+}
+
+.W-Skills{
+    font-family: "Rancho", cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 125, 188);
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+    padding: 1em;
+}
+
+.lotsa-class {
+    font-family: "Rancho", cursive;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 125, 188);
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+    padding: 1em;
 }
