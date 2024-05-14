@@ -667,3 +667,53 @@ button {
     display: flex;
     justify-content: center;
 }
+
+.artsss {
+    font-family: "Honk", system-ui;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 15em;
+    margin-right: 15em;
+    padding: 1em;
+}
+
+a {
+   text-align: center;
+   display:block;
+   font-family: "Rancho", cursive;
+   font-size: larger;
+}
+
+.suffering{
+    background-color: rgb(47, 77, 231);
+    padding:1em;
+    margin-left: 30em;
+    margin-right:30em;
+}
+
+.i-hate-this {
+    color: rgb(255, 125, 188);
+    font-size:x-large;
+}
+
+.brain-rot {
+    background-color: rgb(47, 77, 231);
+    padding:1em;
+    margin-left: 15em;
+    margin-right:15em;
+    font-family: "Rancho", cursive;
+    font-size: xx-large;
+    color: rgb(255, 231, 74);
+
+}
+
+.rotting {
+    color: rgb(255, 125, 188);
+    font-size:x-large;
+    
+}
