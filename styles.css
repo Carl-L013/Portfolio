@@ -43,7 +43,6 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    text-align: center;
     font-style: oblique;
     color: rgb(255, 221, 0);
     margin-left: 25em;
@@ -51,6 +50,17 @@ body {
     padding: 1em;
     background-color: rgb(47, 77, 231);
 
+}
+
+.cont-ovrview-times-three {
+    font-family: "Honk", system-ui;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: oblique;
+    color: rgb(255, 221, 0);
+    text-align: center;
 }
 
 .cont-ovrview-times-two {
@@ -90,6 +100,22 @@ button {
     border-bottom-right-radius: 10px;
 }
 
+.whar {
+    font-family: "Honk", system-ui;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    background-color: rgb(47, 77, 231);
+    margin-left: 25em;
+    margin-right: 25em;
+    padding-left: 1em;
+    padding-right: 1em;
+
+}
+
 .unhappy {
     background-color: rgb(47, 77, 231);
     display: flex;
@@ -121,7 +147,8 @@ button {
     background-color: rgb(47, 77, 231);
     margin-left: 25em;
     margin-right: 25em;
-    padding: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .butt-on-z {
