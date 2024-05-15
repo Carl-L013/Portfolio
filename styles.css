@@ -38,13 +38,12 @@ body {
 }
 
 .cont-ovrview {
-    font-family: "Rancho", cursive;
+    font-family: "Honk", system-ui;
     font-size: xx-large;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    text-decoration: underline;
-    text-decoration-color: rgb(47, 77, 231);
+    text-align: center;
     font-style: oblique;
     color: rgb(255, 221, 0);
     margin-left: 25em;
@@ -52,6 +51,19 @@ body {
     padding: 1em;
     background-color: rgb(47, 77, 231);
 
+}
+
+.cont-ovrview-times-two {
+    font-family: "Rancho", cursive;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 125, 188);
+    font-style: oblique;
+    color: rgb(255, 231, 74);
+    
 }
 
 button {
@@ -62,6 +74,10 @@ button {
     background-color: rgb(255, 125, 188);
     font-size: 14px 40px;
     align-self: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 5px;
+    padding-bottom: 5px;
 
 }
 
@@ -638,13 +654,11 @@ button {
 }
 
 .ya-ha-ha {
-    font-family: "Rancho", cursive;
+    font-family:"Honk", system-ui;
     font-size: xx-large;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    text-decoration: underline;
-    text-decoration-color: rgb(255, 125, 188);
     font-style: oblique;
     color: rgb(255, 231, 74);
     background-color: rgb(47, 77, 231);
@@ -715,5 +729,14 @@ a {
 .rotting {
     color: rgb(255, 125, 188);
     font-size:x-large;
-    
+    text-align: center;
+    padding: 1em;
+    margin-bottom:1em;
+    margin-right: 1em;
+}
+
+.what {
+    display: flex;
+    justify-content: center;
+    padding: 1em;
 }
